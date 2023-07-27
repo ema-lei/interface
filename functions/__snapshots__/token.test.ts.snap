@@ -108,7 +108,7 @@ exports[`should inject metadata for valid tokens 1`] = `
 
       @media (prefers-color-scheme: dark) {
         html {
-          background: linear-gradient(180deg, #202738 0%, #070816 100%);
+          background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
         }
       }
 
@@ -242,7 +242,7 @@ exports[`should inject metadata for valid tokens 2`] = `
 
       @media (prefers-color-scheme: dark) {
         html {
-          background: linear-gradient(180deg, #202738 0%, #070816 100%);
+          background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
         }
       }
 
@@ -376,7 +376,7 @@ exports[`should inject metadata for valid tokens 3`] = `
 
       @media (prefers-color-scheme: dark) {
         html {
-          background: linear-gradient(180deg, #202738 0%, #070816 100%);
+          background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
         }
       }
 
@@ -510,7 +510,7 @@ exports[`should inject metadata for valid tokens 4`] = `
 
       @media (prefers-color-scheme: dark) {
         html {
-          background: linear-gradient(180deg, #202738 0%, #070816 100%);
+          background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
         }
       }
 
@@ -644,7 +644,7 @@ exports[`should inject metadata for valid tokens 5`] = `
 
       @media (prefers-color-scheme: dark) {
         html {
-          background: linear-gradient(180deg, #202738 0%, #070816 100%);
+          background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
         }
       }
 
