@@ -75,12 +75,12 @@ const GlowContainer = styled.div`
     height: 100vh;
   }
 `
-
+//glow location 
 const Glow = styled.div`
   position: absolute;
   top: 68px;
   bottom: 0;
-  background: radial-gradient(72.04% 72.04% at 50% 3.99%, #ff37eb 0%, rgba(166, 151, 255, 0) 100%);
+  background: radial-gradient(72.04% 72.04% at 50% 3.99%, #ac50ef 0%, rgba(166, 151, 255, 0) 100%);
   filter: blur(72px);
   border-radius: 24px;
   max-width: 480px;
@@ -106,9 +106,8 @@ const ContentContainer = styled.div<{ isDarkMode: boolean }>`
     pointer-events: auto;
   }
 `
-
-// line 122: Changing the rbga values  Old: background: linear-gradient(20deg, rgba(255, 244, 207, 1) 10%, rgba(255, 87, 218, 1) 100%) linear-gradient(20deg, rgba(255, 244, 207, 1);`
-// line 123: background: linear-gradient(10deg, rgba(255, 79, 184, 1) 0%, rgba(255, 159, 251, 1) 100%)
+// location of the main page text color
+// line 121: Changing the rbga values  Old: background: linear-gradient(20deg, rgba(255, 244, 207, 1) 10%, rgba(255, 87, 218, 1) 100%) linear-gradient(20deg, rgba(255, 244, 207, 1);`
 const TitleText = styled.h1<{ isDarkMode: boolean }>`
   color: transparent;
   font-size: 36px;
@@ -122,7 +121,7 @@ const TitleText = styled.h1<{ isDarkMode: boolean }>`
           background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
         `
       : css`
-          background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
+          background: linear-gradient(10deg, rgba(255, 79, 184, 1) 0%, rgba(255, 159, 251, 1) 100%);
         `};
   background-clip: text;
   -webkit-background-clip: text;
@@ -157,7 +156,7 @@ const SubTextContainer = styled.div`
   display: flex;
   justify-content: center;
 `
-//get started button type location
+//get started button location
 const LandingButton = styled(BaseButton)`
   padding: 16px 0px; 
   border-radius: 24px;
