@@ -68,7 +68,7 @@ const UNIButton = styled(WalletButton)`
   margin-top: 4px;
   color: white;
   border: none;
-  background: linear-gradient(to right, #9139b0 0%, #4261d6 100%);
+  background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
 `
 
 const IconContainer = styled.div`

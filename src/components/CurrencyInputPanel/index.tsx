@@ -80,7 +80,7 @@ const CurrencySelect = styled(ButtonGray)<{
   outline: none;
   user-select: none;
   border: none;
-  font-size: 24px;
+  font-size: 24px; 
   font-weight: 500;
   height: ${({ hideInput }) => (hideInput ? '2.8rem' : '2.4rem')};
   width: ${({ hideInput }) => (hideInput ? '100%' : 'initial')};

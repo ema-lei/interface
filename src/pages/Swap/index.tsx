@@ -687,10 +687,10 @@ export function Swap({
               properties={{ received_swap_quote: getIsValidSwapQuote(trade, tradeState, swapInputError) }}
               element={InterfaceElementName.CONNECT_WALLET_BUTTON}
             >
-              <ButtonLight onClick={toggleWalletDrawer} fontWeight={600}>
-                <Trans>Connect Wallet</Trans>
+              <ButtonLight onClick={toggleWalletDrawer} fontWeight={1800}> 
+                <Trans>Connect Wallet123</Trans> 
               </ButtonLight>
-            </TraceEvent>
+            </TraceEvent> //connect wallet text location
           ) : chainId && chainId !== connectedChainId ? (
             <ButtonPrimary
               onClick={async () => {

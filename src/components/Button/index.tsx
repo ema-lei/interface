@@ -106,7 +106,7 @@ export const SmallButtonPrimary = styled(ButtonPrimary)`
 const BaseButtonLight = styled(BaseButton)`
   background-color: ${({ theme }) => theme.accentActionSoft};
   color: ${({ theme }) => theme.accentAction};
-  font-size: 20px;
+  font-size: 20px; //buttonlight location 
   font-weight: 600;
 
   &:focus {
@@ -435,7 +435,7 @@ function pickThemeButtonFontSize({ size }: { size: ButtonSize }) {
 function pickThemeButtonLineHeight({ size }: { size: ButtonSize }) {
   switch (size) {
     case ButtonSize.large:
-      return '24px'
+      return '24px' 
     case ButtonSize.medium:
       return '20px'
     case ButtonSize.small:

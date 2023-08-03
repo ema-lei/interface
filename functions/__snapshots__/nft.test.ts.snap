@@ -106,7 +106,7 @@ exports[`should inject metadata for valid assets 1`] = `
 
       @media (prefers-color-scheme: dark) {
         html {
-          background: linear-gradient(180deg, #202738 0%, #070816 100%);
+          background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
         }
       }
 
@@ -238,7 +238,7 @@ exports[`should inject metadata for valid assets 2`] = `
 
       @media (prefers-color-scheme: dark) {
         html {
-          background: linear-gradient(180deg, #202738 0%, #070816 100%);
+          background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
         }
       }
 
@@ -370,7 +370,7 @@ exports[`should inject metadata for valid assets 3`] = `
 
       @media (prefers-color-scheme: dark) {
         html {
-          background: linear-gradient(180deg, #202738 0%, #070816 100%);
+          background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
         }
       }
 

@@ -104,7 +104,7 @@ const Navbar = ({ blur }: { blur: boolean }) => {
       search: '?intro=true',
     })
   }, [accountDrawerOpen, navigate, toggleAccountDrawer])
-
+//uniswap icon location
   return (
     <>
       {blur && <Blur />}
@@ -113,7 +113,7 @@ const Navbar = ({ blur }: { blur: boolean }) => {
           <Box className={styles.leftSideContainer}>
             <Box className={styles.logoContainer}>
               <UniIcon
-                width="48"
+                width="48" 
                 height="48"
                 data-testid="uniswap-logo"
                 className={styles.logo}

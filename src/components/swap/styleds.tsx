@@ -108,7 +108,7 @@ export const UniswapXOptInLargeContainerPositioner = styled.div`
   pointer-events: none;
 `
 
-export const UniswapXOptInLargeContainer = styled.div<{ visible: boolean }>`
+export const UniswapXOptInLargeContainer = styled.div<{ visible: boolean }>` 
   opacity: ${({ visible }) => (visible ? 1 : 0)};
   transform: ${({ visible }) => `translateY(${visible ? 0 : -6}px)`};
   transition: all ease-in 300ms;

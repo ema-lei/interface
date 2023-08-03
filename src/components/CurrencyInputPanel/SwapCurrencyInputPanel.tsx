@@ -53,7 +53,7 @@ const Container = styled.div<{ hideInput: boolean }>`
   width: ${({ hideInput }) => (hideInput ? '100%' : 'initial')};
 `
 
-const CurrencySelect = styled(ButtonGray)<{
+const CurrencySelect = styled(ButtonGray)<{ //select token button location
   visible: boolean
   selected: boolean
   hideInput?: boolean
@@ -63,14 +63,14 @@ const CurrencySelect = styled(ButtonGray)<{
   background-color: ${({ selected, theme }) => (selected ? theme.backgroundInteractive : theme.accentAction)};
   opacity: ${({ disabled }) => (!disabled ? 1 : 0.4)};
   box-shadow: ${({ selected }) => (selected ? 'none' : '0px 6px 10px rgba(0, 0, 0, 0.075)')};
-  color: ${({ selected, theme }) => (selected ? theme.textPrimary : theme.white)};
+  color: ${({ selected, theme }) => (selected ? theme.textPrimary : theme.white)}; //text color
   cursor: pointer;
   height: unset;
   border-radius: 16px;
   outline: none;
   user-select: none;
   border: none;
-  font-size: 24px;
+  font-size: 24px; 
   font-weight: 400;
   width: ${({ hideInput }) => (hideInput ? '100%' : 'initial')};
   padding: ${({ selected }) => (selected ? '4px 8px 4px 4px' : '6px 6px 6px 8px')};
