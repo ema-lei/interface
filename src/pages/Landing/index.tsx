@@ -106,7 +106,9 @@ const ContentContainer = styled.div<{ isDarkMode: boolean }>`
     pointer-events: auto;
   }
 `
-// line 120: Changing the rbga values  Old: background: linear-gradient(20deg, rgba(255, 244, 207, 1) 10%, rgba(255, 87, 218, 1) 100%);`
+
+// line 122: Changing the rbga values  Old: background: linear-gradient(20deg, rgba(255, 244, 207, 1) 10%, rgba(255, 87, 218, 1) 100%) linear-gradient(20deg, rgba(255, 244, 207, 1);`
+// line 123: background: linear-gradient(10deg, rgba(255, 79, 184, 1) 0%, rgba(255, 159, 251, 1) 100%)
 const TitleText = styled.h1<{ isDarkMode: boolean }>`
   color: transparent;
   font-size: 36px;
@@ -117,10 +119,10 @@ const TitleText = styled.h1<{ isDarkMode: boolean }>`
   ${({ isDarkMode }) =>
     isDarkMode
       ? css` 
-          background: linear-gradient(20deg, rgba(255, 244, 207, 1) 10%, rgba(255, 135, 81, 1) 100%);
+          background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
         `
       : css`
-          background: linear-gradient(10deg, rgba(255, 79, 184, 1) 0%, rgba(255, 159, 251, 1) 100%);
+          background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
         `};
   background-clip: text;
   -webkit-background-clip: text;
@@ -131,7 +133,7 @@ const TitleText = styled.h1<{ isDarkMode: boolean }>`
   }
 
   @media screen and (min-width: ${BREAKPOINTS.md}px) {
-    font-size: 640px;
+    font-size: 64px;
     line-height: 72px;
   }
 `
