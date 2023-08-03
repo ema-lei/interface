@@ -106,7 +106,7 @@ const ContentContainer = styled.div<{ isDarkMode: boolean }>`
     pointer-events: auto;
   }
 `
-
+// line 120: Changing the rbga values  Old: background: linear-gradient(20deg, rgba(255, 244, 207, 1) 10%, rgba(255, 87, 218, 1) 100%);`
 const TitleText = styled.h1<{ isDarkMode: boolean }>`
   color: transparent;
   font-size: 36px;
@@ -116,8 +116,8 @@ const TitleText = styled.h1<{ isDarkMode: boolean }>`
   margin: 0 0 24px;
   ${({ isDarkMode }) =>
     isDarkMode
-      ? css`
-          background: linear-gradient(20deg, rgba(255, 244, 207, 1) 10%, rgba(255, 87, 218, 1) 100%);
+      ? css` 
+          background: linear-gradient(20deg, rgba(255, 244, 207, 1) 10%, rgba(255, 135, 81, 1) 100%);
         `
       : css`
           background: linear-gradient(10deg, rgba(255, 79, 184, 1) 0%, rgba(255, 159, 251, 1) 100%);
@@ -131,7 +131,7 @@ const TitleText = styled.h1<{ isDarkMode: boolean }>`
   }
 
   @media screen and (min-width: ${BREAKPOINTS.md}px) {
-    font-size: 64px;
+    font-size: 640px;
     line-height: 72px;
   }
 `
@@ -155,14 +155,15 @@ const SubTextContainer = styled.div`
   display: flex;
   justify-content: center;
 `
-
+//get started button type location
 const LandingButton = styled(BaseButton)`
-  padding: 16px 0px;
+  padding: 16px 0px; 
   border-radius: 24px;
 `
 
+// linear-gradient(93.06deg, #ff00c7 2.66%, #59ACFF 98.99%);
 const ButtonCTA = styled(LandingButton)`
-  background: linear-gradient(93.06deg, #ff00c7 2.66%, #ff9ffb 98.99%);
+  background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
   border: none;
   color: ${({ theme }) => theme.white};
   transition: ${({ theme }) => `all ${theme.transition.duration.medium} ${theme.transition.timing.ease}`};
