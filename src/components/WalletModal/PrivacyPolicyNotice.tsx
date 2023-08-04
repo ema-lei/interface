@@ -16,7 +16,7 @@ const LAST_UPDATED_DATE = '6.7.23'
 export default function PrivacyPolicyNotice() {
   return (
     <ThemedText.Caption color="textSecondary">
-      <Trans>By connecting a wallet, you agree to Uniswap Labs&apos;</Trans>{' '}
+      <Trans>By connecting a wallet, you agree to Openexa&apos;</Trans>{' '}
       <StyledLink href="https://uniswap.org/terms-of-service/">
         <Trans>Terms of Service</Trans>{' '}
       </StyledLink>
