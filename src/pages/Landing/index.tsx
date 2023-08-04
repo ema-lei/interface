@@ -391,7 +391,7 @@ export default function Landing() {
             })}
           >
             <AppleLogo width="20" height="20" />
-            Download the Uniswap Wallet for iOS
+            Download the OpenEXA Wallet for iOS
           </DownloadWalletLink>
         </ContentContainer>
         <AboutContentContainer isDarkMode={isDarkMode}>

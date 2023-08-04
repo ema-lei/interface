@@ -109,9 +109,11 @@ export default function UniswapWalletBanner() {
         }}
       />
 
+
+        {/* Change Trans from Uniswap in your pocket to Openexa*/}
       <AutoColumn gap="8px">
         <ThemedText.HeadlineMedium fontSize="24px" lineHeight="28px" color="white" maxWidth="60%">
-          <Trans>Uniswap in your pocket</Trans>
+          <Trans>OpenEXA in your pocket</Trans>
         </ThemedText.HeadlineMedium>
       </AutoColumn>
 
