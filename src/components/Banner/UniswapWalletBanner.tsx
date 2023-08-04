@@ -16,6 +16,7 @@ import { Z_INDEX } from 'theme/zIndex'
 import { openDownloadApp, openWalletMicrosite } from 'utils/openDownloadApp'
 import { isIOS, isMobileSafari } from 'utils/userAgent'
 
+//popup location
 const PopupContainer = styled.div<{ show: boolean }>`
   display: flex;
   flex-direction: column;
