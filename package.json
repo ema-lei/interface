@@ -31,7 +31,8 @@
     "test:cloud": "NODE_OPTIONS=--experimental-vm-modules yarn jest functions --config=functions/jest.config.json",
     "cypress:open": "cypress open --browser chrome --e2e",
     "cypress:run": "cypress run --browser chrome --e2e",
-    "deduplicate": "yarn-deduplicate --strategy=highest"
+    "deduplicate": "yarn-deduplicate --strategy=highest",
+    "codegen": "graphql-codegen --config codegen.ts"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -74,6 +75,8 @@
     "@cloudflare/workers-types": "^4.20230710.1",
     "@craco/craco": "^7.1.0",
     "@ethersproject/experimental": "^5.4.0",
+    "@graphql-codegen/cli": "5.0.0",
+    "@graphql-codegen/client-preset": "4.1.0",
     "@lingui/cli": "^3.9.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1",
@@ -220,7 +223,7 @@
     "ethers": "^5.7.2",
     "focus-visible": "^5.2.0",
     "get-graphql-schema": "^2.1.2",
-    "graphql": "^16.5.0",
+    "graphql": "^16.7.1",
     "graphql-request": "^3.4.0",
     "immer": "^9.0.6",
     "inter-ui": "^3.13.1",
